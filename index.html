@@ -19,42 +19,47 @@
       <!-- Header start  -->
       <header>
         <div class="container nav-container">
-          <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
-            <div class="nav-img ">
-              <a class="navbar-brand" href="#"><img src="ICON/logo.png" alt=""></a>
-              
-              <div class="learn-with-fun">
-                <p class="learn-question">Are you ready to learn?</p>
-                <strong><h1 class="font-weight-bolder">Learn With fun<br>on <span class="schedule-span">any schedule</span></h1></strong>
-                <p class="learn-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, repellat!.</p>
-                <button class="sign-in-btn btn btn-success">Get started</button>
+           <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+              <div class="col-md-6">
+                <div class="nav-img ">
+                  <a class="navbar-brand" href="#"><img src="ICON/logo.png" alt=""></a>
+                  
+                  <div class="learn-with-fun">
+                    <p class="learn-question">Are you ready to learn?</p>
+                    <strong><h1 class="font-weight-bolder">Learn With fun<br>on <span class="schedule-span">any schedule</span></h1></strong>
+                    <p class="learn-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, repellat!.</p>
+                    <button class="sign-in-btn btn btn-success">Get started</button>
+                  </div>
+                </div>
+                
               </div>
-            </div>
-            
-  
-            <div class="col-md-6  top-menu-bar">
-              <ul class="nav justify-content-right  menu-bar">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Books</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Others</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" >Blog</a>
-                </li>
-                <button class="sign-in-btn btn btn-success">Sign in</button>
-              </ul>
-            </div>
-            <br>
-  
-            <div class="menubar-img ">
-              <img class="image-fluid" src="images/Illustration.png" alt="">
-            </div>
-           </nav>     
+    
+              <div class="col-md-6  top-menu-bar d-flex flex-column">
+                <ul class="nav justify-content-right  menu-bar">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Books</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Others</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" >Blog</a>
+                  </li>
+                  <button class="sign-in-btn btn btn-success">Sign in</button>
+                </ul>
+                <div class="menubar-img ">
+                  <img class="image-fluid" src="images/Illustration.png" alt="">
+                </div>
+              </div>
+              
+    
+
+             </nav>   
+           </div>  
   
         </div>
         
@@ -63,13 +68,17 @@
         <!-- header end -->
 
         <!-- topic start -->
-        <section class="container">
+        <section class="container justify-content-center">
             <div class="topic card-deck">
+              <div class="col-md-1">
+                <span class="empty-col"></span>
+
+              </div>
               
-              <div class="col-md-3">
+              <div class="col-md-2 topic-div">
                 <div class="card-d">
                   <div class="card">
-                    <img src="ICON/book.png" class="card-img-top" alt="...">
+                    <img class="card-img" src="ICON/book.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">1500+ Topic</h5>
                       <p class="card-text">learn anything</p>
@@ -78,9 +87,10 @@
                   </div>
                </div>
               </div>
-                <div class="col-md-3">
-                  <div class="card">
-                    <img src="ICON/calendar.png" class="card-img-top" alt="...">
+                <div class="col-md-2">
+                  <div class="card-d">
+                  <div class="card card-2">
+                    <img class="card-img" src="ICON/calendar.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">1800+ students</h5>
                       <p class="card-text">Learn Anything</p>
@@ -88,20 +98,25 @@
                     </div>
                   </div>
                 </div>
+              </div>
 
-                  <div class="col-md-3">
+                <div class="col-md-2">
+                  <div class="card-d ">
                     <div class="card">
-                      <img src="ICON/Test.png" class="card-img-top" alt="...">
+                      <img class="card-img" src="ICON/Test.png" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">9K+ Test Token</h5>
+                        <h5 class="card-title">9k+ Test Token</h5>
                         <p class="card-text">Learn Anything</p>
                         
                       </div>
                     </div>
                   </div>
-                    <div class="col-md-3">
+                </div>
+
+                   <div class="col-md-2">
+                    <div class="card-d">
                       <div class="card">
-                        <img src="ICON/Students.png" class="card-img-top" alt="...">
+                        <img class="card-img" src="ICON/Students.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">2000+ Test Token</h5>
                           <p class="card-text">Learn Anything</p>
@@ -109,11 +124,165 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+
+                      <div class="col-md-1">
+                        <span class="emply-col"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
         </section>
+        
+        <!-- topic end -->
+
+        <!-- online class headline start -->
+        <div class="container">
+          
+          <div class="row justify-content-center">
+            <h1 class="online-head ">Online Cources</h1>
+          </div>
+
+        </div>
+
+        <!-- online class headline end -->
+
+        <!-- online classes card start  -->
          
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="card-deck ">
+                <div class="card online-card">
+                  <img src="images/Morder pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Phychology</h5>
+                    <p class="card-text">Designation</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between style="background-color: none;">
+                    <div class="footer-img"><img src="ICON/calendar.png" alt="">start 20 Apr 2021 </div>
+
+                    <div class="footer-img">
+                      <img src="ICON/people.png" alt="">60 seats
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="card online-card">
+                  <img src="images/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Phychology</h5>
+                    <p class="card-text">Designation</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between">
+                    <div class="footer-img" style="background-color: none;"><img src="ICON/calendar.png" alt="">start 20 Apr 2021 </div>
+
+                    <div class="footer-img">
+                      <img src="ICON/people.png" alt="">60 seats
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="card online-card">
+                  <img src="images/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Phychology</h5>
+                    <p class="card-text">Designation</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between style="background-color: none;">
+                    <div class="footer-img"><img src="ICON/calendar.png" alt="">start 20 Apr 2021 </div>
+
+                    <div class="footer-img">
+                      <img src="ICON/people.png" alt="">60 seats
+                    </div>
+                     
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- online classes end  -->
+
+        <!-- Testmonial headline start  -->
+
+        <div class="container">
+          
+          <div class="row justify-content-center">
+            <h1 class="online-head ">Testmonial</h1>
+          </div>
+
+        </div>
+
+        <!-- Testmonial headline end  -->
+
+        <!-- man comment section start  -->
+
+        <section>
+          <div class="container">
+            <div class="row man-sec d-flex justify-content-center ">
+              <div class=" man-img "><img src="images/Man.png" alt=""></div>
+              <div class="man-comment">
+                <p>                There is Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quas explicabo aliquid porro nihil officia, illum vitae assumenda.dsadhfdsajf Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- man-comment section end  -->
+
+        <!-- footer section start  -->
+
+        <footer>
+          <div class="container">
+            <div class="row course-footer d-flex justify-content-center justify-content-center">
+              <div class="col-md-6 d-flex  ">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eligendi quidem quis praesentium, atque expedita quam aliquid illo illum suscipit.</p>
+
+              </div>
+              <div class="col-md-6 d-flex flex-row justify-content-around all-list-item">
+                <div class="col-md-2">
+                  <ul>
+                    <li class="list-head">Courses</li>
+                    <li>Grafic Design</li>
+                    <li>Web Design</li>
+                    <li>Marketing</li>
+                    <li>Business</li>
+                    <li>Engineering</li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <ul>
+                    <li class="list-head">Courses</li>
+                    <li>Grafic Design</li>
+                    <li>Web Design</li>
+                    <li>Marketing</li>
+                    <li>Business</li>
+                    <li>Engineering</li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <ul>
+                    <li class="list-head">Courses</li>
+                    <li>Grafic Design</li>
+                    <li>Web Design</li>
+                    <li>Marketing</li>
+                    <li>Business</li>
+                    <li>Engineering</li>
+                  </ul>
+                </div>
+              </div>
+
+              <p class="footer-last-element">copyright© 2020 shawon Ahmed All Right reserve.</p>
+            </div>
+          </div>
+         
+        </footer>
+
+      <!-- footer section end  -->
 
 
 

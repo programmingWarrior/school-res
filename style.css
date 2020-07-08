@@ -17,7 +17,7 @@ body{
 .sign-in-btn{
     border: none;
     border-radius:20px;
-    padding: 5px 25px;
+    padding: 5px 5px;
     font-family: none;
 
     
@@ -43,27 +43,123 @@ body{
     letter-spacing: 2px;
     line-height: 1.6;
 }
+.menubar{
+    overflow: hidden;
+    display: block;
+}
 .menubar-img{
-    
+    margin-top: 100px;
    
-    position: absolute;
+ 
 }
 .menu-bar{
     margin-top: -200px;
     text-align: right;
 }
 .menubar-img img{
-    width:500px;
+    widows: 500px;
     height: 300px;
-   text-align: right;
-   margin-left: 500px;
-   margin-top:100px;
+
 }
 header{
     background-color: rgb(216, 233, 216);
 }
 /* header end  */
 
+/* topic start  */
 .col-md-3{
    
 }
+.card-img{
+    width: 50px;
+    height: 50px;
+    margin:0 auto;
+    margin-top:15px;
+    
+    
+}
+.empty-col{
+    display: block;
+}
+.container{
+    margin-bottom: 50px;
+}
+.card-d{
+    width:200px;
+    height:200px;
+}
+.card{
+    border:none;
+    background-color: ghostwhite;
+}
+.card-2{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgb(179, 176, 176);
+}
+.online-head{
+    text-align: center;
+}
+/* online Class start */
+.card-footer img{
+    width: 15px;
+    height: 15px;
+}
+.online-card{
+    background-color: white;
+    border: none;
+}
+.card-footer{
+    border: none;
+    background-color: none !important;
+    box-shadow: none;
+}
+
+/* online  class end  */
+
+/* man-comment start  */
+
+.man-sec img{
+   
+    width: 100px;
+    height:100px;
+    margin-right:20px;
+    
+    float: left;
+}
+.man-sec{
+    
+   
+}
+.man-comment{
+    
+    
+    width: 500px;
+}
+/* man-comment end  */
+
+/* footer section start  */
+.course-footer{
+    height:px;
+    color:white;
+    background-color:black;
+    padding:10px 20px;
+    padding-top: 20px;
+}
+footer{
+    
+}
+.all-list-item li{
+    list-style: none;
+    font-size: 10px;
+}
+.list-head{
+    font-weight: 700;
+}
+.footer-last-element{
+    color:white;
+    text-align:center;
+    font-size: 10px;
+    margin-top: px;
+
+}
+ /* footer section end  */
